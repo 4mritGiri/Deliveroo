@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "deliveroo",
+    "slug": "deliveroo",
+    "version": "1.0.0",
+    "orientation": ["portrait", "landscape"],
+    "icon": "./assets/logo/deliveroo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo/deliverooSpl.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000CBB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/deliveroo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo/deliveroo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a6cdeee-54eb-4de7-b965-5583300ef4ca"
+      }
+    },
+    "owner": "amrit.giri"
+  }
+}
