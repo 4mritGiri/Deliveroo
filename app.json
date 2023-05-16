@@ -3,7 +3,10 @@
     "name": "deliveroo",
     "slug": "deliveroo",
     "version": "1.0.0",
-    "orientation": ["portrait", "landscape"],
+    "orientation": [
+      "portrait",
+      "landscape"
+    ],
     "icon": "./assets/logo/deliveroo.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -21,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo/deliveroo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amrit.giri.deliveroo"
     },
     "web": {
       "favicon": "./assets/logo/deliveroo.png"
