@@ -25,16 +25,22 @@ The Deliveroo app is a food delivery application built with Expo, React Native, 
 
 1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/4mritGiri/deliveroo-app.git  ```
+   ```
+   git clone https://github.com/4mritGiri/Deliveroo.git  
+   
+   ```
    
 2. Navigate to the project directory:
 
-```cd deliveroo-app ```
+```
+cd deliveroo-app 
+```
 
 3. Install dependencies:
 
-```npm install```
+```
+ npm install
+ ```
 
 4. Set up Sanity CMS:
 
@@ -48,15 +54,18 @@ The Deliveroo app is a food delivery application built with Expo, React Native, 
 
  - Add the following environment variables to the .env file:
 
- ```SANITY_PROJECT_ID=your-sanity-project-id
+ ```
+    SANITY_PROJECT_ID=your-sanity-project-id
  	SANITY_DATASET=your-sanity-dataset
  	SANITY_TOKEN=your-sanity-token
+   
  ```
  - Replace your-sanity-project-id, your-sanity-dataset, and your-sanity-token with your actual Sanity project details. 
 
 6. Run the app:
 
- ```npm start
+ ```
+ npm start
  ```
 
  The Expo development server will start, and you can run the app on a simulator, emulator, or physical device using the Expo client app.
